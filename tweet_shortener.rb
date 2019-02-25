@@ -74,10 +74,6 @@ def selective_tweet_shortener(tweet)
 end
 
 def shortened_tweet_truncator(tweet)
-  # if tweet == nil 
-  #   puts "Invalid tweet @ #{tweet}"
-  # end
-  
   string = selective_tweet_shortener(tweet)
   
   if string.length > 140
